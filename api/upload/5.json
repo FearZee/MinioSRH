@@ -1,0 +1,86 @@
+{
+  "searchObject": {
+    "id": "address.257191643304188",
+    "type": "Feature",
+    "place_type": [
+      "address"
+    ],
+    "relevance": 1,
+    "properties": {
+      "accuracy": "rooftop"
+    },
+    "text": "Sachsendamm",
+    "place_name": "Sachsendamm 4, 10829 Berlin, Germany",
+    "center": [
+      13.354382,
+      52.478235
+    ],
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.354382,
+        52.478235
+      ]
+    },
+    "address": "4",
+    "context": [
+      {
+        "id": "postcode.11601058872447130",
+        "text": "10829"
+      },
+      {
+        "id": "locality.11270859561531310",
+        "text": "Schöneberg"
+      },
+      {
+        "id": "place.14094307404564380",
+        "short_code": "DE-BE",
+        "wikidata": "Q64",
+        "text": "Berlin"
+      },
+      {
+        "id": "country.11437281100480410",
+        "wikidata": "Q183",
+        "short_code": "de",
+        "text": "Germany"
+      }
+    ]
+  },
+  "makro": [
+    {
+      "name": "gr_2y_unemp_rate",
+      "de": "Arbeitslosenquote: 2-jährige Veränderung"
+    },
+    {
+      "name": "pop_sum_00",
+      "de": "Bevölkerung"
+    },
+    {
+      "name": "einwohner_PROG_MITTEL_rate_00",
+      "de": "Bevölkerungsprognose 2030"
+    },
+    {
+      "name": "purchasing_power_sum_00_per_capita",
+      "de": "Kaufkraft pro Kopf"
+    }
+  ],
+  "mikro": [
+    {
+      "name": "v2_connect",
+      "de": "ÖPNV-Anbindung"
+    },
+    {
+      "name": "v1_interregion_connect",
+      "de": "Überregionale Anbindung"
+    },
+    {
+      "name": "v2_kita",
+      "de": "Kitas"
+    },
+    {
+      "name": "v2_flood_risk",
+      "de": "Hochwasserrisiko"
+    }
+  ],
+  "id": "5"
+}
