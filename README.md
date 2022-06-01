@@ -18,4 +18,5 @@ Just [a Click here](api/)
 
 ## React
 
-Frontend was developed with react. To see the sourcecode visit the react directory
+Frontend was developed with react. To see the sourcecode visit the react directory.
+Just [a Click here](react/)
