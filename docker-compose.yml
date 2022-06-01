@@ -1,0 +1,20 @@
+version: '3.0'
+
+services:
+  minio:
+    image: quay.io/minio/minio
+    container_name: minio
+    environment:
+      # Login Daten für den Root Benutzer
+      - MINIO_ROOT_USER=AKIAIOSFODNN7EXAMPLE
+      - MINIO_ROOT_PASSWORD=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+    volumes:
+      # Datenordner innerhalb des Containers auf dem
+      # Hostsystem mounten
+      - ~/minio/data:/data
+    ports:
+      # Container Ports auf dem Hostsystem mappen
+      - 9000:9000
+      - 9090:9090
+    command:
+      server /data --console-address ":9090"
