@@ -1,6 +1,6 @@
 # MinioSRH
 
-This project was developed by Sascha and Erdem for the Course "Alternative Database" By Prof. Dr. David Linner, SRH Berlin School of Design and Communication.
+This project was developed by Sascha and Erdem for the course "Alternative Database" By Prof. Dr. David Linner, SRH Berlin School of Design and Communication.
 
 ## Run Minio in Docker
 
@@ -13,7 +13,7 @@ A docker container will be created.
 
 ## Api
 
-For more informations for the API go inside tha api directory
+For more informations about the API go inside the api directory
 
 ## React
 
